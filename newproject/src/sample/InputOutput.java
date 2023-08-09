@@ -6,10 +6,10 @@ public class InputOutput {
 ////    int i = scanner.nextInt(); //int 값을 입력 받아서 가져와
 ////    System.out.println(i);
 //
-//    String s = scanner.nextLine(); //문자로 받기
-//    int i2 = Integer.parseInt(s);  //숫자로 변환
-//    System.out.println(i2);
-//
+    String s = scanner.nextLine(); //문자로 받기
+    int i2 = Integer.parseInt(s);  //숫자로 변환
+    System.out.println(i2);
+
     int a =1_000_000;
     int b =2_000_000;
     long c = a*(long)b;
