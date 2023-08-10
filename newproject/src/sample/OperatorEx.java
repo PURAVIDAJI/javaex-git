@@ -13,7 +13,5 @@ public class OperatorEx {
     // l++ 먼저 참조한 후에 나중에 더해라.
     System.out.printf("l = %d and m= %d ",l,m);
 
-
-
   }
 }
