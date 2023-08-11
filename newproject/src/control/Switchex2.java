@@ -1,5 +1,4 @@
 package control;
-
 public class Switchex2 {
   public static void main(String[] args) {
     whoIsIt("호랑이");

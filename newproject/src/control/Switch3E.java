@@ -14,7 +14,6 @@ public class Switch3E {
       kind = "조류";
     } else {
       kind = "해당없음";
-
     }
 
     System.out.printf("%s는 %s입니다.", bio, kind);

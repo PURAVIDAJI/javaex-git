@@ -13,7 +13,5 @@ public class Simpleif {
     else{
       System.out.println("홀수입니다.");
     }
-
-
   }
 }

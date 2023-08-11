@@ -10,6 +10,7 @@ public class Method1 {
     System.out.printf("sum(10~100) = %d\n" ,sum(10,100));
     System.out.printf("sum(100~1000) = %d\n" ,sum(1_000_000_000,2_000_000_000));
   }
+
   //동일하게 반복되지 않기에 중첩for문 불가! 그러면 어떻게 해야 하나?
   //메소드를 하나 만릉겠다.
 

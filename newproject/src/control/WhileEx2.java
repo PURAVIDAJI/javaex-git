@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class WhileEx2 {
   public static void main(String[] args) {
+
     Scanner in = new Scanner(System.in);
     String kind = "";
+
     while(true){
       System.out.println("동물의 이름을 입력하세요");
       String bio = in.nextLine();

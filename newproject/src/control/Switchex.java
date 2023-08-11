@@ -13,6 +13,7 @@ public class Switchex {
       case 1:
         System.out.print("*");
     }
+
     }
   }
 

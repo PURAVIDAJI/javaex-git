@@ -7,7 +7,6 @@ public class WhileEx {
 //      System.out.print(i+"\n");
 //      i++;
 //    }
-
     int i =0;
     while(true){
       System.out.println("Hello!World"+(i+1));
