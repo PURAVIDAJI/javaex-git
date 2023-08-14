@@ -4,8 +4,9 @@ public class CircleEx {
   public static void main(String[] args) {
     
     Circle circle = new Circle();
-    circle.setRadius(3.14);
+    circle.setRadius(10);
     System.out.println("circle.getRadius = " + circle.getRadius());
+    System.out.println("circle.findArea = " + circle.findArea());;
   }
 }
 //클래스 자체에도 private을 설정할 수 있음
@@ -23,8 +24,15 @@ class Circle{
     return radius;
   }
   public void setRadius(double radius) {
-    this.radius = radius;
+    if (radius<=0){
+      System.out.println("설정할 수 없습니다.");
+    } else {
+      this.radius = radius;
+    }
     //저위의 전역변수와 지역변수 이름이 같음 > 구분해야햠 ! this. >객체 내가 가진 radius는 전역변수 말하는 거임
+  }
+  public double findArea() {
+    return Math.PI *radius*radius;
   }
   // getter > 은닉된 값을 밖으로 보여주는 역할
 //  public double getRadius(){
