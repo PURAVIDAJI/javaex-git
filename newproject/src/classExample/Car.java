@@ -12,7 +12,7 @@ package classExample;
 //    status=false;
 //  }
 
-  class Car{
+  public class Car{
     int Speed =0;
     boolean direction = true;
 
