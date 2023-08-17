@@ -24,6 +24,7 @@ public class EnumScoreTest {
         grade = Grade.B;
       } else {
         grade =Grade.C;
+
       }
       System.out.printf("%d 번째 학생의 점수는 %d, 등급은 %s %s이다", i + 1,score[i],grade, grade.getGrade());
 //    }
